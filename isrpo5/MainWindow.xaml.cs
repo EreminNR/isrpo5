@@ -24,5 +24,11 @@ namespace isrpo5
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Вы нажали на кнопку");
+            textbox.Text = "Нажал на кнопку";
+        }
     }
 }

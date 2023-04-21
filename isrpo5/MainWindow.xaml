@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,228,0,0" VerticalAlignment="Top" Height="106" Width="166"/>
-        <TextBox HorizontalAlignment="Center" Margin="0,154,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button HorizontalAlignment="Center" Margin="0,228,0,0" VerticalAlignment="Top" Height="106" Width="166" Click="Button_Click">
+            <TextBlock TextWrapping="Wrap" Text="TextBlock"/>
+        </Button>
+        <TextBox x:Name="textbox" HorizontalAlignment="Center" Margin="0,154,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
